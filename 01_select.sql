@@ -1,1 +1,1 @@
-SELECT 'Olá Mundo!'
+SELECT idCliente, qtdePontos FROM clientes
