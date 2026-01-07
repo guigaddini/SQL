@@ -10,4 +10,7 @@ OR DescNomeProduto = 'Churn_2pp' */
 /* --Sendo: Onde Produtos está IN (lista de produtos):
 WHERE DescNomeProduto IN ('Churn_2pp', 'Churn_5pp', 'Churn_10pp') */
 
-WHERE DescNomeProduto LIKE '%pp%
+/* WHERE DescNomeProduto LIKE '%pp%'
+--LIKE compara se Strings sao parecidas */
+
+WHERE DescCategoriaProduto = 'churn_model'
