@@ -1,4 +1,5 @@
-SELECT qtdePontos,
+SELECT  idCliente, 
+        qtdePontos,
         DtCriacao,
         substr(DtCriacao, 11, 19) AS DtSubString,
         datetime(substr(DtCriacao, 1, 19)) AS DtCriacaoNova,
