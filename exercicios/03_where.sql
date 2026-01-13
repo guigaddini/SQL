@@ -1,0 +1,1 @@
+-- Lista de clientes com 0 (zero) pontos
