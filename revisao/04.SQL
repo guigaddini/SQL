@@ -1,4 +1,8 @@
 -- Liste todas as transações com exatamente 50 pontos
 
-SELECT * 
+SELECT IdCliente, IdTransacao, QtdePontos
 FROM transacoes
+
+WHERE QtdePontos = 50
+
+LIMIT 10
