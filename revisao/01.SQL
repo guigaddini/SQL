@@ -1,4 +1,6 @@
 -- Liste todos os clientes com exatamente 1 ponto
 
-SELECT *
+SELECT idCliente, qtdePontos
 FROM clientes
+
+WHERE qtdePontos = 1
